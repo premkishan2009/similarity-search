@@ -1,0 +1,30 @@
+READ ME
+The entire data set was used to perform the experiment.
+
+Steps:
+1.Open Eclipse
+2.Create new java project
+3.Use default location
+4.Browse to the CS584-pedhara folder and select it
+
+
+***doc2mat****
+1. The input is taken from data.txt
+2. Output is given to out.txt
+3. Every document in output is separated by {} in out.txt
+4. The class name of a document is saved within the matrix with value -1. So it is not used in any similarity search.
+5. While running the program please change the run configuration as the default heap size of JVM is not enough for the program.
+6. The run configuration can be changed by
+	Go to Run -> Click on Run configuration -> select doc2mat from Java application on the left window -> click on arguments tab -> add -Xmx1024m in the VM arguments field and run.
+
+***cosine*****
+1. The input is taken from data.txt
+2. This file performs only one query similarity test at a time.
+3. The output is given on the console.
+4. For testing on the full data set refer to "testcosine.txt"
+
+***euclidean****
+1. The input is taken from data.txt
+2. This file performs only one query similarity test at a time.
+3. The output is given on the console.
+4. For testing on the full data set refer to "testeuclidean.txt"
